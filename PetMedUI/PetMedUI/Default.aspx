@@ -10,7 +10,7 @@
                     <h4 class="display-4 font-weight-bold mx-auto text-center">Pet Med System</h4>
                 </div>
                 <div class="row mx-auto">
-                    <h5 class="display-5 mx-auto faded text-center">Welcome to the Pet Med System for vets, where you can place orders for your patients and see a list of all patients</h5>
+                    <h5 class="display-5 mx-auto faded text-center">Welcome to the Pet Med System for vets, where you can place orders for your patients and see a list of all current patients</h5>
                 </div>
                 <div class="row my-4">
                     <div class="col text-center course"><img src="images/pets.jfif" class="img-fluid" data-toggle="tooltip" data-placement="top"

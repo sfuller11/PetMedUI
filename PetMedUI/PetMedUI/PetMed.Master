@@ -36,7 +36,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Patients.aspx">Patients</a>
-
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Stock.aspx">Stock</a>
                         </li>
                         
                     </ul>
