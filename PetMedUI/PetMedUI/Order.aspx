@@ -149,13 +149,45 @@
                 </div>
                 <div class="row p-2 mx-auto">
                     <div class="col">
-                        <asp:Label ID="lblInterestedIn" runat="server" Text="Priority:"></asp:Label>
+                        <%--<asp:Label ID="lblInterestedIn" runat="server" Text="Priority:"></asp:Label>
                         <asp:DropDownList ID="ddlInterestedIn" runat="server" CssClass="form-select">
                             <asp:ListItem>Normal</asp:ListItem>
                             <asp:ListItem>High</asp:ListItem>
                             <asp:ListItem>Low</asp:ListItem>
                             <asp:ListItem>Any</asp:ListItem>                            
-                        </asp:DropDownList>
+                        </asp:DropDownList>--%>
+
+                        <%--<ul class="nav nav-tabs">
+                          <li class="dropdown">
+                            <a class="dropdown-toggle"
+                               data-toggle="dropdown"
+                               href="#">
+                                Dropdown
+                                <b class="caret"></b>
+                              </a>
+                            <ul class="dropdown-menu">
+                              <li class="nav-item">
+                                <a class="nav-link" href="#basic" onclick="">Basic</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#career">Career</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#hobbies">Hobbies</a>
+                            </li>
+                            </ul>
+                          </li>
+                        </ul>--%>
+                        <div class="dropdown">
+                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Priority
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Medium</a></li>
+                            <li><a class="dropdown-item" href="#">Low</a></li>
+                            <li><a class="dropdown-item" href="#">High</a></li>
+                          </ul>
+                        </div>
                     </div>
                     <div class="col mx-auto" style="text-align:center;">
                         <asp:FileUpload ID="fileProfilePicture" runat="server" CssClass="form-control-file" />
@@ -171,7 +203,8 @@
 
                 <div class="row p-2 mx-auto">
                     <div class="col" style="text-align: center;">
-                        <asp:Button ID="btnSubmit" runat="server" Text="Submit Order" CssClass="btn btn-danger" />
+                        <asp:Button ID="btnSubmit" runat="server" Text="Clear" CssClass="btn btn-danger" />
+                        <asp:Button ID="Button1" runat="server" Text="Submit Order" CssClass="btn btn-success" />
                     </div>
                 </div>
               </div>
